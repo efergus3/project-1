@@ -25,16 +25,12 @@ let arrMax = (numbers) => {
 //req. 3d
 let sumEvens = (arr) => {
   let sum = 0;
-  for (var i = 0; i < arr.length; i++) {
-    if ((arr[i]%2) == 0 ){
-      sum = arr[i] + sum;
+  var i = 0;
+  for (i of arr) {
+    if ((i % 2) == 0) {
+      sum = i + sum;
+      i = i + 1;
     }
   }
   return sum;
-};
-
-//req. 3e
-let x = function(letter) {
-  let a = 'abcdefghijklmnopqrstuvwxyz';
-  return letter.charCodeAt(a);
 };
