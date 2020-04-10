@@ -32,3 +32,9 @@ let sumEvens = (arr) => {
   }
   return sum;
 };
+
+//req. 3e
+let x = function(letter) {
+  let a = 'abcdefghijklmnopqrstuvwxyz';
+  return letter.charCodeAt(a);
+};
